@@ -1,0 +1,33 @@
+{
+  "name": "oni-insta",
+  "version": "1.0.0",
+  "description": "A Password Graber Tool !",
+  "main": "index.js",
+  "type": "module",
+  "tailwind:css": "postcss public/css/tailwind.css -o public/css/style.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js & npx tailwind.css -i ./public/css/tailwindcss -o ./public/css/output.css --watch",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "0_0_armaan_malik",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "eruda": "^3.0.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2",
+    "morgan": "^1.10.0",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0",
+    "preline": "^2.0.2",
+    "tailwindcss": "^3.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7"
+  }
+}
